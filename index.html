@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dulcería El Norteño | Dulces Tradicionales</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- MENÚ PRINCIPAL -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-norteno sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">
+                DULCERÍA EL NORTEÑO
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pedido">Mi pedido</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- PORTADA -->
+    <header id="inicio" class="portada">
+
+        <div class="container text-center">
+
+            <p class="subtitulo">TRADICIÓN Y SABOR DE LAMBAYEQUE</p>
+
+            <h1>Dulcería El Norteño</h1>
+
+            <h2>El auténtico sabor de nuestros dulces tradicionales</h2>
+
+            <p>
+                Descubre nuestros deliciosos productos,
+                elaborados para compartir momentos especiales.
+            </p>
+
+            <a href="#productos" class="btn btn-dorado btn-lg">
+                Ver nuestros productos
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="container seccion">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+
+                <h2>Sobre nosotros</h2>
+
+                <p>
+                    Somos Dulcería El Norteño, una propuesta dedicada
+                    a la elaboración y venta de dulces tradicionales
+                    de la región Lambayeque.
+                </p>
+
+                <p>
+                    Buscamos compartir el sabor de nuestra tradición,
+                    ofreciendo productos para disfrutar en familia
+                    y en ocasiones especiales.
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <img src="https://placehold.co/700x450?text=Dulceria+El+Norteno"
+                     class="img-fluid rounded"
+                     alt="Presentación de Dulcería El Norteño">
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CATÁLOGO -->
+    <section id="productos" class="seccion catalogo">
+
+        <div class="container">
+
+            <h2 class="text-center mb-2">
+                Nuestros productos
+            </h2>
+
+            <p class="text-center mb-5">
+                Conoce nuestros dulces tradicionales.
+            </p>
+
+            <div class="row g-4">
+
+                <!-- PRODUCTO 1 -->
+                <div class="col-12 col-sm-6 col-lg-4">
+
+                    <div class="card producto-card h-100">
+
+                        <img src="https://placehold.co/600x400?text=King+Kong"
+                             class="card-img-top"
+                             alt="King Kong tradicional">
+
+                        <div class="card-body text-center">
+
+                            <h5 class="card-title">
+                                King Kong tradicional
+                            </h5>
+
+                            <p>
+                                Dulce tradicional de Lambayeque.
+                            </p>
+
+                            <h4 class="precio">S/ 18.00</h4>
+
+                            <button class="btn btn-outline-dark mb-2"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#detalle1">
+                                Ver detalle
+                            </button>
+
+                            <button class="btn btn-dorado btn-agregar"
+                                    data-id="1"
+                                    data-nombre="King Kong tradicional"
+                                    data-precio="18">
+                                Agregar al pedido
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PRODUCTO 2 -->
+                <div class="col-12 col-sm-6 col-lg-4">
+
+                    <div class="card producto-card h-100">
+
+                        <img src="https://placehold.co/600x400?text=Alfajores"
+                             class="card-img-top"
+                             alt="Alfajores tradicionales">
+
+                        <div class="card-body text-center">
+
+                            <h5 class="card-title">
+                                Alfajores tradicionales
+                            </h5>
+
+                            <p>
+                                Dulces ideales para compartir.
+                            </p>
+
+                            <h4 class="precio">S/ 5.00</h4>
+
+                            <button class="btn btn-outline-dark mb-2"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#detalle2">
+                                Ver detalle
+                            </button>
+
+                            <button class="btn btn-dorado btn-agregar"
+                                    data-id="2"
+                                    data-nombre="Alfajores tradicionales"
+                                    data-precio="5">
+                                Agregar al pedido
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PRODUCTO 3 -->
+                <div class="col-12 col-sm-6 col-lg-4">
+
+                    <div class="card producto-card h-100">
+
+                        <img src="https://placehold.co/600x400?text=Natilla"
+                             class="card-img-top"
+                             alt="Natilla tradicional">
+
+                        <div class="card-body text-center">
+
+                            <h5 class="card-title">
+                                Natilla artesanal
+                            </h5>
+
+                            <p>
+                                Un dulce tradicional para disfrutar.
+                            </p>
+
+                            <h4 class="precio">S/ 10.00</h4>
+
+                            <button class="btn btn-outline-dark mb-2"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#detalle3">
+                                Ver detalle
+                            </button>
+
+                            <button class="btn btn-dorado btn-agregar"
+                                    data-id="3"
+                                    data-nombre="Natilla artesanal"
+                                    data-precio="10">
+                                Agregar al pedido
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- DETALLE DE PRODUCTOS -->
+    <div class="modal fade" id="detalle1" tabindex="-1"
+         aria-labelledby="tituloDetalle1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tituloDetalle1">
+                        King Kong tradicional
+                    </h5>
+
+                    <button type="button" class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="https://placehold.co/600x400?text=King+Kong"
+                         class="img-fluid rounded mb-3"
+                         alt="King Kong tradicional">
+
+                    <p>
+                        Dulce representativo de Lambayeque.
+                        Consulta las presentaciones disponibles.
+                    </p>
+
+                    <h5 class="precio">S/ 18.00</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="detalle2" tabindex="-1"
+         aria-labelledby="tituloDetalle2" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tituloDetalle2">
+                        Alfajores tradicionales
+                    </h5>
+
+                    <button type="button" class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="https://placehold.co/600x400?text=Alfajores"
+                         class="img-fluid rounded mb-3"
+                         alt="Alfajores tradicionales">
+
+                    <p>
+                        Deliciosos alfajores para disfrutar
+                        y compartir.
+                    </p>
+
+                    <h5 class="precio">S/ 5.00</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="detalle3" tabindex="-1"
+         aria-labelledby="tituloDetalle3" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tituloDetalle3">
+                        Natilla artesanal
+                    </h5>
+
+                    <button type="button" class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="https://placehold.co/600x400?text=Natilla"
+                         class="img-fluid rounded mb-3"
+                         alt="Natilla artesanal">
+
+                    <p>
+                        Dulce tradicional para disfrutar
+                        en cualquier ocasión.
+                    </p>
+
+                    <h5 class="precio">S/ 10.00</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MI PEDIDO -->
+    <section id="pedido" class="container seccion">
+
+        <div class="pedido-box">
+
+            <h2>Mi pedido</h2>
+
+            <p>
+                Aquí podrás revisar los dulces que deseas comprar.
+            </p>
+
+            <div id="listaPedido">
+                <p class="text-muted">
+                    Todavía no has agregado productos.
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="d-flex justify-content-between">
+                <h5>Total:</h5>
+
+                <h5 id="totalPedido">S/ 0.00</h5>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion contacto">
+
+        <div class="container">
+
+            <h2 class="text-center mb-4">
+                Contáctanos
+            </h2>
+
+            <p class="text-center mb-4">
+                ¿Tienes alguna consulta? Escríbenos.
+            </p>
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-8">
+
+                    <form id="formContacto">
+
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">
+                                Nombre completo
+                            </label>
+
+                            <input type="text" id="nombre"
+                                   class="form-control"
+                                   placeholder="Ingresa tu nombre"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">
+                                Correo electrónico
+                            </label>
+
+                            <input type="email" id="correo"
+                                   class="form-control"
+                                   placeholder="Ingresa tu correo"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">
+                                Mensaje
+                            </label>
+
+                            <textarea id="mensaje"
+                                      class="form-control"
+                                      rows="4"
+                                      placeholder="Escribe tu consulta"
+                                      required></textarea>
+                        </div>
+
+                        <div class="form-check mb-3">
+
+                            <input type="checkbox"
+                                   class="form-check-input"
+                                   id="privacidad">
+
+                            <label for="privacidad"
+                                   class="form-check-label">
+                                Acepto la política de privacidad.
+                            </label>
+
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-dorado">
+                            Enviar mensaje
+                        </button>
+
+                        <div id="mensajeFormulario"
+                             class="mt-3"
+                             aria-live="polite"></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer text-center">
+
+        <div class="container">
+
+            <h4>DULCERÍA EL NORTEÑO</h4>
+
+            <p>
+                Tradición y sabor de Lambayeque.
+            </p>
+
+            <p class="mb-0">
+                © 2026 Dulcería El Norteño.
+                Todos los derechos reservados.
+            </p>
+
+        </div>
+    </footer>
+
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JAVASCRIPT DEL EQUIPO -->
+    <script src="js/carrito.js"></script>
+
+</body>
+</html>
