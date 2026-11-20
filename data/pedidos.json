@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "codigo": "PED-0001",
+    "fecha": "2026-11-20T21:16:51.062Z",
+    "cliente": {
+      "nombre": "Fran",
+      "correo": "fran09@gmail.com",
+      "telefono": "789516315"
+    },
+    "items": [
+      {
+        "id": 1,
+        "nombre": "King Kong tradicional",
+        "precio": 18,
+        "cantidad": 1,
+        "subtotal": 18
+      },
+      {
+        "id": 2,
+        "nombre": "Alfajores tradicionales",
+        "precio": 5,
+        "cantidad": 1,
+        "subtotal": 5
+      },
+      {
+        "id": 3,
+        "nombre": "Natilla artesanal",
+        "precio": 10,
+        "cantidad": 1,
+        "subtotal": 10
+      }
+    ],
+    "total": 33,
+    "metodoPago": "yape",
+    "metodoPagoNombre": "Yape",
+    "estado": "pendiente"
+  }
+]

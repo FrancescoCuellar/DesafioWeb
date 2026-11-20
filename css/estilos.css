@@ -1,0 +1,205 @@
+
+/* ESTILOS GENERALES */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0;
+    color: #493323;
+    margin: 0;
+}
+
+/* MENÚ */
+.navbar-norteno {
+    background-color: #59351f;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #f2c879 !important;
+}
+
+/* PORTADA */
+.portada {
+    background: linear-gradient(
+        rgba(70, 39, 18, 0.78),
+        rgba(70, 39, 18, 0.78)
+    ),
+    url("../img/portada.svg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 110px 20px;
+}
+
+.portada h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.portada h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    color: #f2c879;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* BOTONES */
+.btn-dorado {
+    background-color: #b77b35;
+    color: white;
+    border: none;
+}
+
+.btn-dorado:hover {
+    background-color: #89551e;
+    color: white;
+}
+
+/* SECCIONES */
+.seccion {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+section h2 {
+    color: #75451f;
+    font-weight: bold;
+}
+
+/* CATÁLOGO */
+.catalogo {
+    background-color: #f4ead9;
+}
+
+.producto-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+    transition: transform 0.3s;
+}
+
+.producto-card:hover {
+    transform: translateY(-6px);
+}
+
+.producto-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.producto-card .card-body {
+    padding: 25px;
+}
+
+.precio {
+    color: #a56625;
+    font-weight: bold;
+}
+
+/* PEDIDO */
+.pedido-box {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+}
+
+/* CONTACTO */
+.contacto {
+    background-color: #f4ead9;
+}
+
+#formContacto {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+}
+
+/* PIE DE PÁGINA */
+.footer {
+    background-color: #59351f;
+    color: white;
+    padding: 35px 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+
+    .portada {
+        padding: 75px 15px;
+    }
+
+    .portada h1 {
+        font-size: 34px;
+    }
+
+    .portada h2 {
+        font-size: 20px;
+    }
+
+    .producto-card img {
+        height: 200px;
+    }
+
+    .pedido-box {
+        padding: 20px;
+    }
+}
+
+
+/* LOGO */
+.logo-nav { height: 42px; width: 42px; margin-right: 10px; }
+.logo-hero { height: 170px; width: 170px; margin-bottom: 15px; }
+.logo-footer { height: 110px; width: 110px; margin-bottom: 10px; }
+
+@media (max-width: 576px) {
+    .logo-hero { height: 130px; width: 130px; }
+}
+
+
+/* PEDIDO: FORMULARIO Y PAGO */
+#formPedido legend {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* ENLACE ADMINISTRADOR */
+.enlace-admin {
+    color: #f2c879;
+    font-size: 14px;
+}
+
+/* PANEL DE ADMINISTRADOR */
+.admin-tarjeta {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+}
+
+.admin-cifra {
+    color: #75451f;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.admin-etiqueta {
+    color: #7a5a3c;
+    font-size: 14px;
+    margin: 0;
+}

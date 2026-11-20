@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "King Kong tradicional",
+    "descripcion": "Dulce tradicional de Lambayeque.",
+    "detalle": "Dulce representativo de Lambayeque. Consulta las presentaciones disponibles.",
+    "precio": 18,
+    "imagen": "img/king-kong.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Alfajores tradicionales",
+    "descripcion": "Dulces ideales para compartir.",
+    "detalle": "Deliciosos alfajores para disfrutar y compartir.",
+    "precio": 5,
+    "imagen": "img/alfajores.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Natilla artesanal",
+    "descripcion": "Un dulce tradicional para disfrutar.",
+    "detalle": "Dulce tradicional para disfrutar en cualquier ocasión.",
+    "precio": 10,
+    "imagen": "img/natilla.jpg"
+  }
+]

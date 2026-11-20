@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" role="img" aria-label="Dulcería El Norteño">
+<rect width="700" height="450" fill="#F4EAD9"/><rect y="320" width="700" height="130" fill="#59351F"/>
+<path d="M60 150 h580 v-40 l-40 -50 h-500 l-40 50 z" fill="#B77B35"/>
+<g fill="#FFF8EA"><path d="M100 60 h100 l-10 50 h-80z" opacity=".35"/><path d="M300 60 h100 l0 50 h-100z" opacity=".35"/><path d="M500 60 h100 l10 50 h-110z" opacity=".35"/></g>
+<rect x="80" y="150" width="540" height="170" fill="#FFF8EA"/>
+<rect x="110" y="180" width="480" height="140" rx="8" fill="#D9A55B" opacity=".25"/>
+<g><rect x="140" y="240" width="90" height="50" rx="8" fill="#D9A55B"/><rect x="140" y="228" width="90" height="16" rx="8" fill="#8A4B1F"/>
+<ellipse cx="320" cy="270" rx="45" ry="16" fill="#E7BC78"/><ellipse cx="320" cy="252" rx="45" ry="16" fill="#FFF3D6"/>
+<path d="M420 295 l-20 -70 h120 l-20 70z" fill="#FFF3D6" stroke="#B77B35" stroke-width="4"/><rect x="415" y="232" width="90" height="14" fill="#8A4B1F"/></g>
+<text x="350" y="385" text-anchor="middle" font-family="Georgia,serif" font-size="34" font-weight="bold" fill="#F2C879">DULCERÍA EL NORTEÑO</text></svg>
